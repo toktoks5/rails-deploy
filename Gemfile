@@ -4,8 +4,6 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # 20230306 
 #gem 'rails',                   '6.0.3'
 gem 'rails',                   '6.0.4'
-#gem "mimemagic",               "~> 0.3.10"
-#gem 'rails',                   '~> 6.1.3.1'
 
 #gem 'aws-sdk-s3',              '1.46.0', require: false
 gem 'aws-sdk-s3',              '~> 1', require: false
@@ -27,6 +25,7 @@ gem 'bootsnap',   '1.10.3', require: false
 gem 'net-smtp', require: false
 gem 'net-imap', require: false
 gem 'net-pop', require: false
+gem 'psych',      '~> 3.1'
  
 group :development, :test do
   gem 'sqlite3', '1.4.1'
