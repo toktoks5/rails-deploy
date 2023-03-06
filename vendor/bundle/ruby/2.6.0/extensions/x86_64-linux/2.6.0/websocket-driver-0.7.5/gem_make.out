@@ -1,0 +1,18 @@
+current directory: /var/www/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/usr/local/bin/ruby -I /usr/local/lib/ruby/site_ruby/2.6.0 extconf.rb
+creating Makefile
+
+current directory: /var/www/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230222-1-1smmdwh sitelibdir\=./.gem.20230222-1-1smmdwh clean
+
+current directory: /var/www/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230222-1-1smmdwh sitelibdir\=./.gem.20230222-1-1smmdwh
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /var/www/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230222-1-1smmdwh sitelibdir\=./.gem.20230222-1-1smmdwh install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20230222-1-1smmdwh
+
+current directory: /var/www/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230222-1-1smmdwh sitelibdir\=./.gem.20230222-1-1smmdwh clean

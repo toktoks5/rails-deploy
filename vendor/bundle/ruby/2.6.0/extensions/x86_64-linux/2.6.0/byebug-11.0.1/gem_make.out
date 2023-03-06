@@ -1,0 +1,22 @@
+current directory: /var/www/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+/usr/local/bin/ruby -I /usr/local/lib/ruby/site_ruby/2.6.0 extconf.rb
+creating Makefile
+
+current directory: /var/www/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20230222-1-14vmgnb sitelibdir\=./.gem.20230222-1-14vmgnb clean
+
+current directory: /var/www/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20230222-1-14vmgnb sitelibdir\=./.gem.20230222-1-14vmgnb
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /var/www/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20230222-1-14vmgnb sitelibdir\=./.gem.20230222-1-14vmgnb install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20230222-1-14vmgnb/byebug
+
+current directory: /var/www/vendor/bundle/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20230222-1-14vmgnb sitelibdir\=./.gem.20230222-1-14vmgnb clean
