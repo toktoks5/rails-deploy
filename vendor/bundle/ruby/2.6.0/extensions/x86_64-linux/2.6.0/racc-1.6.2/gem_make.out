@@ -1,0 +1,20 @@
+current directory: /var/www/vendor/bundle/ruby/2.6.0/gems/racc-1.6.2/ext/racc/cparse
+/usr/local/bin/ruby -I /usr/local/lib/ruby/site_ruby/2.6.0 extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /var/www/vendor/bundle/ruby/2.6.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230222-1-1w3tr9n sitelibdir\=./.gem.20230222-1-1w3tr9n clean
+
+current directory: /var/www/vendor/bundle/ruby/2.6.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230222-1-1w3tr9n sitelibdir\=./.gem.20230222-1-1w3tr9n
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /var/www/vendor/bundle/ruby/2.6.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230222-1-1w3tr9n sitelibdir\=./.gem.20230222-1-1w3tr9n install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20230222-1-1w3tr9n/racc
+
+current directory: /var/www/vendor/bundle/ruby/2.6.0/gems/racc-1.6.2/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230222-1-1w3tr9n sitelibdir\=./.gem.20230222-1-1w3tr9n clean
