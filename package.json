@@ -10,12 +10,10 @@
     "jquery": "3.4.1",
     "node-sass": "^8.0.0",
     "turbolinks": "^5.2.0"
+    "@rails/node": "16.16"
   },
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^3.10.3"
   }
-  "engines": {
-    "node": "16.16"
-  },
 }
