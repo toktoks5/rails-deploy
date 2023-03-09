@@ -17,4 +17,7 @@
     "webpack-dev-server": "^3.10.3",
     "webpack": "^4.46.0"
   }
+  "scripts": {
+    "NODE_OPTIONS=--openssl-legacy-provider bin/webpack"
+  }	
 }
